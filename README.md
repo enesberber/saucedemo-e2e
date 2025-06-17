@@ -55,37 +55,46 @@ README.md             # Project documentation
 ##  How to Run the Project
 
 - 1. Check if Git is installed
+ ```bash
 git --version
-
+```
  If Git is NOT installed, install it using:
  macOS (with Homebrew)
+```bash
 brew install git
-
+```
  Windows (with Chocolatey, run as Administrator)
+```bash
 choco install git
-
+```
  Ubuntu/Debian Linux
+```bash
 sudo apt update
 sudo apt install git
-
+```
 - 2. Check if Node.js and npm are installed
+```bash
 node -v
 npm -v
-
+```
  If Node.js is NOT installed, install it using:
 macOS (with Homebrew)
+```bash
 brew install node
-
+```
  Windows (with Chocolatey, run as Administrator)
+```bash
 choco install nodejs-lts
-
+```
  Ubuntu/Debian Linux
+```bash
 sudo apt update
 sudo apt install nodejs npm
-
-- 3. Clone the project
-git clone https://github.com/yourusername/saucedemo-e2e.git
-cd saucedemo-e2e
+```
+- 3. Clone the project using
+ ```bash
+git clone https://github.com/enesberber/saucedemo-e2e.git
+```
 
 ```bash
 cd saucedemo-e2e
